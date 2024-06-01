@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/TypesAndVariables/pom.xml" />
         <option value="$PROJECT_DIR$/SmartTv/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ContaBanco/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/types-and-variables/pom.xml" />
       </set>
     </option>
