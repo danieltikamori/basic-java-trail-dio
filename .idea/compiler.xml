@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExceptionsExample" />
         <module name="SmartTv" />
         <module name="ContaBanco" />
+        <module name="Flow-control" />
+        <module name="controle-candidatos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
