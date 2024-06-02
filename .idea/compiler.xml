@@ -9,6 +9,7 @@
         <module name="ExceptionsExample" />
         <module name="SmartTv" />
         <module name="ContaBanco" />
+        <module name="CounterChallenge" />
         <module name="Flow-control" />
         <module name="controle-candidatos" />
       </profile>
