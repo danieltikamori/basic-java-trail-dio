@@ -1,6 +1,7 @@
 package cc.tkmr;
 
 import java.util.Locale;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class AboutMeExceptions {
@@ -22,7 +23,7 @@ public class AboutMeExceptions {
         System.out.println("Minha altura é " + altura + "m ");
     }
 
-        private static String getNome(Scanner scanner) {
+        public static String getNome(Scanner scanner) {
             String nome = "Seu nome";
 
         do {
@@ -41,7 +42,7 @@ public class AboutMeExceptions {
         return nome;
         }
 
-        private static String getSobrenome(Scanner scanner) {
+        public static String getSobrenome(Scanner scanner) {
             String sobrenome = "Seu sobrenome";
 
             do {
@@ -60,7 +61,7 @@ public class AboutMeExceptions {
             return sobrenome;
         }
 
-        private static int getIdade(Scanner scanner) {
+        public static int getIdade(Scanner scanner) {
             int idade = 0;
 
             do {
@@ -79,7 +80,7 @@ public class AboutMeExceptions {
             return idade;
         }
 
-        private static double getAltura(Scanner scanner) {
+        public static double getAltura(Scanner scanner) {
             double altura = 0;
 
             do {
@@ -87,7 +88,7 @@ public class AboutMeExceptions {
                     System.out.println("Digite sua altura:");
                     altura = scanner.nextDouble();
                     if (altura < 0 || altura > 3.0) {
-                        throw new IllegalArgumentException("Altura inválida. A altura deve estar entre 0 e 3 metros.");
+                        throw new NoSuchElementException("Altura inválida. A altura deve estar entre 0 e 3 metros.");
                     }
                 } catch (Exception e) {
                     System.out.println("Altura inválida. A altura deve estar entre 0 e 3 metros.");
@@ -97,4 +98,6 @@ public class AboutMeExceptions {
 
             return altura;
         }
+
+
 }
