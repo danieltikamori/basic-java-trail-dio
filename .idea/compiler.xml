@@ -14,7 +14,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basics" target="21" />
       <module name="types-and-variables" target="22" />
     </bytecodeTargetLevel>
   </component>
